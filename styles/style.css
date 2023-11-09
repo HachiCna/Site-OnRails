@@ -248,14 +248,6 @@ header.bg{
   transition: 0.5s;
 }
 
-.id-img{
-  width: 220px;
-}
-
-#id-img{
-  width:220px;
-}
-
 .id-title{
   font-size: 30px;
   margin-top: 20px;
@@ -312,7 +304,7 @@ header.bg{
 }
 
 #int-img{
-  width: 160px;
+  width: 180px;
 }
 
 .int-function{
@@ -365,7 +357,7 @@ header.bg{
 }
 
 #prototipo-img{
-  width: 850px;
+  width: 600px;
   margin-left: 4rem;
 }
 
@@ -407,7 +399,8 @@ header.bg{
 }
 
 .prototipo-class{
-  margin-top: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 
 
