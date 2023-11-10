@@ -1,3 +1,41 @@
+/* CSS para tornar a landing page responsiva */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-content {
+  
+  background: url("images/") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  background-image: url("https://cdn.discordapp.com/attachments/990751842076086272/1171959568432107581/Design_sem_nome_1.png?ex=655e9367&is=654c1e67&hm=8aac8889b0c7cdc7528866a5574d56114eed7009bc8f0d76dbdd84292f73c5e8&" ) no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 101vh;
+  overflow: hidden;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+  /* HEADER E NAVBAR */
+header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
 /* FONTES */
 @font-face {
   font-family: "Raleway Bold";
@@ -157,11 +195,24 @@ header.bg{
   gap: 32px;
   width: 41%;
   color: #ffffff;
+  position: absolute;
+  top: 300px;
+  left: 100px;
 }
 
 #heading {
+  top: 500px;
+  left: 500px;
   font-size: 50px;
+  line-height: 48px;
+
 }
+#heading1 {
+  font-size: 50px;
+  line-height: 50px;
+
+}
+
 
 #highlight-green {
   color: #a7f0e6;;
@@ -213,6 +264,7 @@ header.bg{
   background: #6f4a9f;
   border-radius: 10px;
 }
+
 
 .text-sobre {
   margin-top: 50px;
@@ -357,6 +409,11 @@ header.bg{
 }
 
 #prototipo-img{
+  width: 600px;
+  margin-left: 4rem;
+}
+
+#prototipo-home {
   width: 600px;
   margin-left: 4rem;
 }
@@ -516,8 +573,10 @@ hr {
 .footer-icons a:hover{
   color: #6f4a9f;
 }
-
-
+ .icon{
+  height: 100px;
+  width: 100px;
+ }
 
 
 
